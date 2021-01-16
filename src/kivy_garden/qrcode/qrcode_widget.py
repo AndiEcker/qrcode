@@ -151,5 +151,6 @@ if __name__ == '__main__':
     import sys
 
     from kivy.app import runTouchApp
+
     data = str(sys.argv[1:])
     runTouchApp(QRCodeWidget(data=data))
